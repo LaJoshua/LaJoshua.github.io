@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Description</title>
+    <style>
+        #team {
+            text-align: center;
+        }
+
+        .team-member {
+            display: inline-block;
+            margin: 10px;
+            text-align: center;
+        }
+
+        .team-member img {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+        }
+
+        .team-member p {
+            font-weight: bold;
+        }
+
+        .linkedin-link {
+            font-size: 14px;
+        }
+
+        .school {
+            font-size: 14px;
+        }
+
+        .mentor-label {
+            font-weight: bold;
+        }
+
+        .mentor-section {
+            margin: 20px 0;
+        }
+
+        .Title{
+            display: flex;
+            justify-content: center;
+        }
+
+        .Subheading{
+            display: flex;
+            justify-content: center;
+        }
+
+       
+        .paragraph {
+            text-align: justify;
+            margin: 20px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            background-color: #f9f9f9;
+        }
+ 
+        
+
+        #tools-and-resources {
+            text-align: center;
+        }
+
+        .Subheading {
+            text-align: center;
+        }
+        
+    </style>
+
+    <link href="css/styles.css" rel="stylesheet" />
+
+</head>
+<body>
+
+    <div class="d-flex" id="wrapper">
+        <!-- Sidebar-->
+        <div class="border-end bg-white" id="sidebar-wrapper">
+            <div class="sidebar-heading border-bottom bg-light">Menu</div>
+            <div class="list-group list-group-flush">
+                <a class="list-group-item list-group-item-action list-group-item-light p-3" href="dashborad.html">Dashboard</a>
+                <a class="list-group-item list-group-item-action list-group-item-light p-3" href="description.html">Description</a>
+                <a class="list-group-item list-group-item-action list-group-item-light p-3" href="data.html">Data</a>
+                <a class="list-group-item list-group-item-action list-group-item-light p-3" href="status.html">Status</a>
+            </div>
+        </div>
+        <!-- Page content wrapper-->
+        <div id="page-content-wrapper">
+            <!-- Top navigation-->
+            <nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom">
+                <div class="container-fluid">
+                    <button class="btn btn-primary" id="sidebarToggle">Toggle Menu</button>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ms-auto mt-2 mt-lg-0">
+                            <li class="nav-item active"><a class="nav-link" href="#!">Home</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#!">Link</a></li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" id="navbarDropdown" href="#" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+                                <div class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item" href="#!">Action</a>
+                                    <a class="dropdown-item" href="#!">Another action</a>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item" href="#!">Something else here</a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+
+
+    <div class="Title">
+        <h1> Problem Description </h1>
+    </div>
+
+    <div class="paragraph">
+        <p>
+            The Social Vulnerability Index (SVI) is a tool used to estimate the risk to lives and livelihoods within a community when faced with external stressors such as manmade or natural disasters, including pandemics (CDC/ATSDR Social Vulnerability Index (SVI), n.d.; Fox et al., 2023; Mah et al., 2023). SVI utilizes 16 community variables described by the American Community Survey, including socioeconomic status, household characteristics, racial and ethnic minority status, housing and transportation characteristics (CDC/ATSDR Social Vulnerability Index (SVI), n.d.; Fox et al., 2023).
+    
+            Fox et al. (2023) showed that the impacts of COVID-19 were disproportionately burdensome on areas of Austin with high SVI scores, which were concentrated in the historically disadvantaged area known as the Eastern Crescent.
+    
+            Utilizing mobility data from 2019 and 2020 provided by SafeGraph, we showed mobility changes that occurred secondary to pandemic restrictions.
+        </p>
+
+        <p>
+            <p><h3>Defining SVI: <br></h3></p>
+
+            SVI ranks the tracts on 16 social factors, including unemployment, racial and ethnic minority status, and disability, and further groups them into four related themes. Thus, each tract receives a ranking for each Census variable and for each of the four themes as well as an overall ranking. <br>
+
+            <img src="images/whatissvi.png" alt="SVI" width="300" height="300">
+        </p>
+
+        <p>
+
+            <p><h3>Asking The Question: <br></h3></p>
+
+            <p>
+                Q1: Is there a relationship between changes in mobility and the SVI? <br>
+                Q2: Is this relationship dependent on mobility restrictions?
+            </p>
+
+        </p>
+
+    </div>
+    
+
+
+    <div class="Subheading">
+        <h3> Meet the Hackers </h3>
+    </div>
+
+    <div id="team">
+        <div class="team-member">
+            <img src="images/me.jpeg" alt="John Doe">
+            <p>Joshua Harrell</p>
+            <a class="linkedin-link" href="https://www.linkedin.com/in/joshua-harrell-691282275/" target="_blank">LinkedIn</a>
+            <p class="school"> Elizabeth City State University</p>
+        </div>
+        <div class="team-member">
+            <img src="images/susan.jpg" alt="Jane Smith">
+            <p>Susan Garza</p>
+            <a class="linkedin-link" href="https://www.linkedin.com/in/susan-garza-b6a476182/" target="_blank">LinkedIn</a>
+            <p class="school">Texas State University</p>
+        </div>
+        <div class="team-member">
+            <img src="images/gideon.jpg" alt="Michael Johnson">
+            <p>Gideon Osei Bonsu</p>
+            <a class="linkedin-link" href="https://www.linkedin.com/in/gideon-osei-bonsu-197a1916a/" target="_blank">LinkedIn</a>
+            <p class="school"> Elizabeth City State University </p>
+        </div>
+        <div class="team-member">
+            <img src="images/clan.jpg" alt="Michael Johnson">
+            <p>Clarence Conner</p>
+            <a class="linkedin-link" href="https://www.linkedin.com/in/c-conner/" target="_blank">LinkedIn</a>
+            <p class="school">Jackson State University</p>
+        </div>
+        <div class="team-member">
+            <img src="images/daneisha.jpg" alt="David Lee">
+            <p>Da'Neisha Harris</p>
+            <a class="linkedin-link" href="https://www.linkedin.com/in/daneisha-harris-921b56267?" target="_blank">LinkedIn</a>
+            <p class="school">University of Maryland Eastern Shore</p>
+        </div>
+        <div class="mentor-section">
+            <p class="mentor-label">Mentors</p>
+            <div class="team-member">
+                <img src="images/jose2.jpg" alt="Laura Wilson">
+                <p>Dr. José Herrera-Diestra</p>
+                <a class="linkedin-link" href=".com/in/jose-luis-herrera-diestra-b824536b/" target="_blank">LinkedIn</a>
+                <p class="school">Center for Pandemic Decision Science</p>
+            </div>
+            <div class="team-member">
+                <img src="images/emma.jpg" alt="Robert Davis">
+                <p>Emma Bukoswki</p>
+                <a class="linkedin-link" href="https://www.linkedin.com/in/robertdavis" target="_blank">LinkedIn</a>
+                <p class="school">Texas Advanced Computing Cente</p>
+            </div>
+        </div>
+    </div>
+
+    
+
+    <div id="tools-and-resources">
+
+        <div class="Subheading">
+            <h3> Tools and Resoruces </h3>
+        </div>
+    
+            <!-- Programming Languages -->
+            <p>
+                <h3>Programming Languages</h3>
+            </p>
+            <p>
+                <a href="https://www.python.org/">Python</a> - A versatile and easy-to-learn programming language.
+                <br>
+                Description of Python.
+                
+            </p>
+
+            <p>
+                <a href="https://www.python.org/">  <br> R </a> - A powerful and versatile statistical programming language. <br> R is widely used for data analysis, statistical modeling, and visualization. <br> Description of R.
+                <br>
+                
+
+            </p>
+
+            <p>
+                <a href="https://www.python.org/">  <br> R Studio </a> - An integrated development environment (IDE) for R. <br> RStudio provides a user-friendly interface for working with R, making data analysis and visualization more efficient. <br> Description of RStudio.
+                <br>
+               
+
+            </p>
+
+            <h3>Web Development Tools</h3>
+            <p>
+                <a href="https://developer.mozilla.org/en-US/docs/Web/HTML">HTML</a> - HyperText Markup Language. <br> HTML is the backbone of web pages, defining their structure and content. It's a fundamental language for web development. <br> Description of HTML.
+                <br>
+            </p>
+
+            <p>
+                <a href="https://developer.mozilla.org/en-US/docs/Web/CSS">CSS</a> - Cascading Style Sheets. <br> CSS is used to control the visual presentation of HTML elements. It's essential for creating attractive and responsive web designs. <br> Description of CSS.
+                <br>
+            </p>
+
+            <p>
+                <a href="https://www.python.org/">  <br> Google Slides </a> An online presentation software by Google.<br> Google Slides allows users to create, edit, and share visually engaging presentations. <br> It offers a range of features for adding text, images, videos, and interactive elements, making it a versatile tool for creating and delivering impactful presentations. <br> Description of Google Slides 
+                <br>
+                
+
+            </p>
+
+            <p>
+                <a href="https://www.python.org/">  <br> GitHub </a> - A popular platform for version control and collaborative software development. <br> GitHub enables developers to work together, track changes, and manage their code repositories. <br> Description of GitHub.
+                <br>
+                
+
+            </p>
+
+            <h3>Online Learning Resoruces</h3>
+            <p>
+                <a href="https://www.coursera.org/">ChatGPT</a> - Offers a wide range of online courses.
+                <br>
+                Description of Coursera.
+            </p>
+            <p>
+                <a href="https://www.udemy.com/">StackOverflow</a> - A platform for learning and teaching online.
+                <br>
+                Description of Udemy.
+            </p>
+
+            <h3>References</h3>
+
+            <p>
+                <a href="https://www.atsdr.cdc.gov/placeandhealth/svi/index.html">CDC/ATSDR Social Vulnerability Index (SVI). (n.d.).</a>
+            </p>
+           
+            <p>
+                <a href="https://doi-org.libproxy.txstate.edu/10.1371/journal.pcbi.1011149">Fox, S. J., Javan, E., Pasco, R., Gibson, G. C., Betke, B., Herrera-Diestra, J. L., Woody, S., Pierce, K., Johnson, K. E., Johnson-León, M., Lachmann, M., & Meyers, L. A. (2023). Disproportionate impacts of COVID-19 in a large US city. PLoS Computational Biology, 19(6), 1–22.</a>
+            </p>
+
+            <p>
+                <a href="https://doi-org.libproxy.txstate.edu/10.1057/s41599-022-01437-5">Huang, B., Huang, Z., Chen, C., Lin, J., Tam, T., Hong, Y., & Pei, S. (2022). Social vulnerability amplifies the disparate impact of mobility on COVID-19 transmissibility across the United States. Humanities and Social Sciences Communications, 9(1). </a>
+            </p>
+
+            <p>
+                <a href="https://doi-org.libproxy.txstate.edu/10.1186/s12889-023-16097-6">Mah, J. C., Penwarden, J. L., Pott, H., Theou, O., & Andrew, M. K. (2023). Social vulnerability indices: a scoping review. BMC Public Health, 23(1), 1–11. </a>
+            </p>
+
+        </div>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+</body>
+</html>
+
